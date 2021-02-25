@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +10,10 @@ namespace ProblemThree_CompleteSolution_BL
     {          
         public abstract double PayPerPiece(int quantity);
         public abstract double PayPerWeight(int weight);
+        public int ItemCode { get; set; }
+        public String ItemName { get; set; }
+        public int ItemPrice { get; set; }
+        
 
     }
 }
